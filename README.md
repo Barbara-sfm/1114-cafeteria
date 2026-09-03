@@ -6,6 +6,7 @@ Página web de una cafetería con menú interactivo y carrito de compras. Permit
 Funciones:
 
 Visualización del menú.
+Mejorar la experiencia del usuario.
 Agregar productos al carrito.
 Modificar o eliminar pedidos.
 Cálculo automático del total.
