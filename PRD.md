@@ -2,7 +2,6 @@ PRD
 
 Integrantes: Aynara Ceron, Barbara Fernandez
 
-# En una lista colocas el repo de cada integrante
 Curso: 1114
 
 
