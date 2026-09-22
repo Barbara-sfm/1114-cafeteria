@@ -9,7 +9,7 @@ La plataforma permitirá a los usuarios consultar el menú digital, visualizar l
 
 El cliente podrá modificar las cantidades de los productos, eliminar elementos del carrito y revisar el valor total de su pedido antes de confirmarlo.
 
-Una vez confirmado el pedido, el sistema generará un **ticket o resumen de compra** que mostrará los productos seleccionados, sus cantidades, precios, subtotal y total a pagar. Este ticket podrá ser presentado en caja para completar el pago.
+Una vez confirmado el pedido, el sistema generará un **ticket o resumen de compra** que mostrará los productos seleccionados, sus cantidades, precios, subtotal y total a pagar. Este ticket podrá ser presentado en caja para completar el pago. El MVP no procesa tarjetas ni pagos en línea.
 
 La solución busca reducir los tiempos de espera, evitar filas innecesarias y mejorar la organización del proceso de pedidos
 
@@ -205,7 +205,9 @@ Presenta este ticket en caja.
 10. El cliente confirma el pedido.
 11. El sistema genera un ticket.
 12. El cliente presenta el ticket en caja.
-13. Se realiza el pago.
+13. Se realiza el pago en caja.
+
+Fuera del alcance del MVP: pagos con tarjeta, pasarelas de pago y almacenamiento de datos financieros.
 
 Tecnologías utilizadas
 

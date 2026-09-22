@@ -10,7 +10,7 @@ Descripción del Proyecto:
 Los dueños de una franquicia de cafeterías necesitan una web capaz de facilitar el proceso de pedido del usuario para así evitar largas filas en el local y
 reducir personal de servicio al cliente. El sistema debe permitir: Mostrar un menú con los productos organizados y al darle seleccionar el producto deseado
 este se añada a un carrito. El carrito debe mostrar los productos añadidos con el total a pagar. Que al finalizar el pedido genere un ticket con el nombre
-del cliente, la mesa, y los productos pedidos con su total a pagar.
+del cliente, la mesa y los productos pedidos con su total a pagar. El pago se realiza en caja; el MVP no procesa tarjetas ni pagos en línea.
 
 Requisitos Funcionales:
 
@@ -64,7 +64,8 @@ Al finalizar el pedido:
 
   - Se genera un ticket con el resumen de la compra, el nombre del cliente y la mesa.
   - Incluye productos, cantidades y total a pagar.
-- El cliente presenta el ticket en caja para pagar.
+- El cliente presenta el ticket en caja para realizar el pago.
+- El MVP no procesa pagos con tarjeta ni almacena datos de pago.
 
 Beneficios de la web:
 

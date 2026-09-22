@@ -8,7 +8,7 @@ Descripción
 
 El proyecto consiste en una página web para la gestión de pedidos dentro de una cafetería. El cliente puede consultar los productos disponibles, agregarlos al carrito, modificar las cantidades o eliminar productos antes de confirmar su pedido.
 
-Una vez finalizada la selección, el sistema calcula automáticamente el total y genera un ticket de compra que el cliente puede presentar en caja para realizar el pago o tambien ofrece un servicio de pago automatico ingresando la tarjeta de credito desde la app.
+Una vez finalizada la selección, el sistema calcula automáticamente el total y genera un ticket de compra que el cliente presenta en caja para realizar el pago. El MVP no procesa tarjetas ni pagos automáticos.
 
 Funcionalidades
 
@@ -24,7 +24,9 @@ Eliminar productos del carrito.
 
 Cálculo automático del subtotal y total.
 
-Confirmación del pedido.
+Confirmación del pedido para generar el ticket.
+
+Pago en caja mediante el ticket generado.
 
 Generación de un ticket con el resumen de la compra.
 
